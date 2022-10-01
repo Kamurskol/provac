@@ -1,0 +1,84 @@
+//QUESTÃO 1
+
+/*#include <stdio.h>
+
+int main(void) {
+float celsius; 
+float fah;  
+printf("Digite uma temperatura em °C: ");
+scanf("%f", &celsius);
+  
+fah = (celsius * 1.8) + 32;
+
+printf("\n%.1f em celsius é igual a %.1f em fahrenheit.",celsius, fah);
+
+  return 0;
+}*/
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+//QUESTÃO 2
+
+/*#include <stdio.h>
+
+int main(void) {
+  float num[10] = {0};
+  float total = 0;
+  float media = 0;
+
+printf("Digite os valores: \n");
+  
+for(int i = 0; i < 10; ++i)
+  scanf("%f", &num[i]);
+
+for(int i = 0; i < 10; ++i)
+  total += num[i];
+
+
+media = total / 10;
+  printf("A média dos valores é %.1f ", media);
+
+for(int i = 0; i < 10; ++i)
+  if(num[i] == media){
+printf("\nnum[%i] é igual à média", i);
+    
+  }
+  return 0;
+}*/
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+//QUESTÃO 3
+
+/*#include <stdio.h>
+
+int main(void) {
+int n;
+int a = 0;
+int b = 1;
+int c;
+  
+printf("Ate qual termo a sequência deverá ser imprimida?: ");
+scanf("%i", &n);
+
+for(int i = 0; i < n; i++){
+ if (i == n - 1){
+    printf("%i ", a);
+ }   
+  else {
+    printf("%i ", a);
+    c = a + b;
+    a = b;
+    b = c;
+  }
+}
+  
+return 0;
+}*/
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+//QUESTÃO 4 N CONSEGUI :(
