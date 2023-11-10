@@ -1,4 +1,4 @@
-//QUESTÃO 1
+//QUESTÃO 1 - Conversor de temperatura 
 
 /*#include <stdio.h>
 
@@ -18,7 +18,7 @@ printf("\n%.1f em celsius é igual a %.1f em fahrenheit.",celsius, fah);
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-//QUESTÃO 2
+//QUESTÃO 2 - Média de notas
 
 /*#include <stdio.h>
 
@@ -50,7 +50,7 @@ printf("\nnum[%i] é igual à média", i);
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-//QUESTÃO 3
+//QUESTÃO 3 - Sequência de Fibonacci
 
 /*#include <stdio.h>
 
